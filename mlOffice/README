@@ -1,0 +1,4 @@
+# Example: 
+
+python ml_office_one.py -k Linear_Office.txt -i office-0117/Vincent_not_here/csi_20170117_090417.jpg 
+
