@@ -52,7 +52,7 @@ def uploaded_file(filename):
     return prediction[0] 
 
 if __name__ == '__main__':
-    model = joblib.load('../mlOffice/misoffice.pkl')
+    model = joblib.load('../../SVM_Office/models/misoffice.pkl')
 #    model = pickle.load(open('../mlOffice/Linear_Office.txt', 'rb'))
 
     mask = np.zeros((500,500), dtype="uint8")
